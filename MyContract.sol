@@ -9,14 +9,14 @@ pragma solidity ^0.8.0;
     string public myString = "Hello world";
     bytes32 public myBytes32 = "Hello World";
 
-    address public myAddress = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
+    address public myAddress = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2; // It can be a wallet address for ex
 
     struct MyStruct {
         uint256 myUint256;
         string myString;
     }
 
-    MyStruct public myStruct = MyStruct(1, "Hello World");
+    MyStruct public myStruct = MyStruct(1, "Hello World");    // 1 for uint 256 and Hello wlrd for string on the top
 
 
     //Local vraiable
